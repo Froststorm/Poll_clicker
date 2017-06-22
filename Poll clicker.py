@@ -10,7 +10,7 @@ base_url = "https://www.survio.com/"
 
 try:
     # driver = webdriver.Firefox()
-    driver.set_page_load_timeout(2)
+    driver.set_page_load_timeout(4)
     driver.get(base_url + "/survey/d/O7F2Y9I0V9J0Y7J4S")
 except Exception:
     print('time out')
