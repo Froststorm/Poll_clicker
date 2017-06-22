@@ -28,4 +28,4 @@ driver.find_element_by_xpath("//fieldset[9]/div/label/textarea").clear()
 randname = random.choice(list(codecs.open('names.txt', encoding='1251').readlines()))
 driver.find_element_by_xpath("//fieldset[9]/div/label/textarea").send_keys(randname)
 
-# driver.close()
+driver.refresh()
