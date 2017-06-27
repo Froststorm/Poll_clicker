@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/names.txt" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/spisok.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spisok.txt" charset="windows-1251" />
     <file url="PROJECT" charset="windows-1252" />
   </component>
 </project>
